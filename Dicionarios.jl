@@ -245,17 +245,3 @@ println(d["nome2"])
 
 # Erro  de chave
 println(d["nome"]) 
-
-
-
-
-
-d = DicionarioLinear()
-d["chave1"] = 1
-d["chave2"] = 2
-d["chave1"] = 10
-
-
-println(d["chave1"])
-# println(d["chave1"])  # Saída: 1
-# println(d["chave2"])  # Saída: 2
